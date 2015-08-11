@@ -52,3 +52,73 @@ $message = "I want to say hello world";
 
 $infoResponse = new InfoResponse($data,$message);
 ```
+
+### getType
+
+This method returns the type of object's istance
+
+```php
+
+$infoResponse->getType();
+```
+
+### setType
+
+This method sets the type of object's istance
+
+```php
+
+$infoResponse->setType($type);
+```
+
+### getMessage
+
+This method returns the message attribute of object's istance
+
+```php
+
+$infoResponse->getMessage();
+```
+
+### setMessage
+
+This method sets the message attribute of object's istance
+
+```php
+$message = "I want to say hello world";
+$infoResponse->setMessage($message);
+```
+
+### getData
+
+This method returns the data attribute of object's istance
+
+```php
+
+$infoResponse->getData();
+```
+
+### setData
+
+This method sets the data attribute of object's istance.
+As seed the $data parameters is an associative array that contains a mixin of variable
+
+```php
+$data = [
+    'object' => new Object('example'),
+    'number' => 1,
+    'string' => "hello world"
+    //etc
+];
+$infoResponse->setData($data);
+```
+
+
+### addAllowedType
+
+This method is a static method that allows you to add a castum response type. 
+
+```php
+$type = "custom";
+BaseResponse::addAllowedType($type);
+```
