@@ -21,7 +21,7 @@ In the each file where you use one of the Sircamp\Response objects you must add 
 use Sircamp\Response\InfoResponse as InfoResponse;
 use Sircamp\Response\WarningResponse as WarningResponse;
 use Sircamp\Response\SuccessResponse as SuccessResponse;
-use Sircamp\Response\ErrorResponse as ErrorResponse;
+use Sircamp\Response\DangerResponse as ErrorResponse;
 ```
 
 ### new Response
@@ -36,7 +36,7 @@ Pay attention that each type of object has automatically set the **type** string
 + In case of **InfoResponse** the **type** attribute is setted to **info**
 + In case of **WarningResponse** the **type** attribute is setted to **warning**
 + In case of **SuccessResponse** the **type** attribute is setted to **success**
-+ In case of **ErrorResponse** the **type** attribute is setted to **error**
++ In case of **DangerResponse** the **type** attribute is setted to **danger**
 
 
 ```php
