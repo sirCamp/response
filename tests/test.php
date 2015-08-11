@@ -5,4 +5,4 @@ require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Compos
 use Sircamp\Response\InfoResponse as InfoResponse;
 
 $info = new InfoResponse(array(),"ok");
-echo $info->message;
+echo $info->getMessage();
