@@ -10,9 +10,11 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-	   "php": ">=5.4.0"
+	   "php": ">=5.4.0",
+        "respect/validation": "^1.0@dev",
+        "phpunit/phpunit": "^4.8"
     },
     "classmap": [
                 

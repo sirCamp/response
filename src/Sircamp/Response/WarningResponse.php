@@ -4,7 +4,7 @@ use Sircamp\Response\Base\BaseResponse as BaseResponse;
 
 class WarningResponse extends BaseResponse {
 
-	private $type = 'warning';
+	public $type = 'warning';
 
 	public function __construct($data,$message){
 		parent::__construct($data,$message);
