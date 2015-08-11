@@ -29,9 +29,9 @@ echo "type: ".($info->getType() == "success")."\n";
 echo "data: ".($info->getData() == array())."\n";
 echo "json: ".json_encode($info,JSON_PRETTY_PRINT)."\n";
 
-$info = new ErrorResponse(array(),"error");
-echo "\nClass ErrorResponse:\n";
-echo "message: ".($info->getMessage() == "error")."\n";
-echo "type: ".($info->getType() == "error")."\n";
+$info = new DangerResponse(array(),"danger");
+echo "\nClass DangerResponse:\n";
+echo "message: ".($info->getMessage() == "danger")."\n";
+echo "type: ".($info->getType() == "danger")."\n";
 echo "data: ".($info->getData() == array())."\n";
 echo "json: ".json_encode($info,JSON_PRETTY_PRINT)."\n";
