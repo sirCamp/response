@@ -1,5 +1,5 @@
 {
-    "name": "sircamp/response",
+    "name": "sircamp/php-rest-response",
     "description": "a package that allows you to have a boostrap similar rest response object",
     "license": "MIT",
     "authors": [
