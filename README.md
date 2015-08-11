@@ -21,7 +21,7 @@ In the each file where you use one of the Sircamp\Response objects you must add 
 use Sircamp\Response\InfoResponse as InfoResponse;
 use Sircamp\Response\WarningResponse as WarningResponse;
 use Sircamp\Response\SuccessResponse as SuccessResponse;
-use Sircamp\Response\DangerResponse as ErrorResponse;
+use Sircamp\Response\DangerResponse as DangerResponse;
 ```
 
 ### new Response
