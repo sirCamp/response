@@ -2,13 +2,27 @@
     "name": "sircamp/response",
     "description": "a package that allows you to have a boostrap similar rest response object",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "sirCamp",
-            "email": "sircampydevelop@gmail.com"
+            "email": "sircampydevelop@gmail.com",
+            "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-	"php": ">=5.3.0"
+	   "php": ">=5.4.0"
+    },
+    "classmap": [
+                
+    ],
+    "autoload": {
+        "psr-0": {
+            "Sircamp\\Response": "src/"
+        }
     }
+	
+	
+   
 }
