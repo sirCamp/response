@@ -1,0 +1,14 @@
+{
+    "name": "sircamp/response",
+    "description": "a package that allows you to have a boostrap similar rest response object",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sirCamp",
+            "email": "sircampydevelop@gmail.com"
+        }
+    ],
+    "require": {
+	"php": ">=5.3.0"
+    }
+}
