@@ -13,7 +13,7 @@
     "minimum-stability": "stable",
     "require": {
 	   "php": ">=5.4.0",
-        "respect/validation": "^1.0@dev",
+        "respect/validation": "^0.9.0",
         "phpunit/phpunit": "^4.8"
     },
     "classmap": [
