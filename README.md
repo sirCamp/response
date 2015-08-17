@@ -116,7 +116,10 @@ $infoResponse->setData($data);
 
 ### addAllowedType
 
-This method is a static method that allows you to add a castum response type. 
+This method is a static method that allows you to add a castum response type.
+If you add a custom type, you can create a new extended custom class ( with your desidered type ) at rutime.
+
+**To create an anonimus runtime class you must have PHP 7**
 
 ```php
 $type = "custom";
