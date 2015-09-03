@@ -1,6 +1,7 @@
 {
     "name": "sircamp/response",
     "description": "a package that allows you to have a boostrap similar rest response object",
+    "keywords": ["response", "json", "rest", "bootstrap","symfony","laravel"],
     "license": "MIT",
     "type": "library",
     "authors": [
